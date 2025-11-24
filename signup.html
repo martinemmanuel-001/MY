@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign Up</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: #0d0d0d;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: #fff;
+    }
+
+    .signup-container {
+      background: #1a1a1a;
+      padding: 30px;
+      border-radius: 12px;
+      width: 350px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.6);
+      border: 1px solid #333;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #fff;
+    }
+
+    .input-group {
+      margin-bottom: 15px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-size: 14px;
+      color: #ccc;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      border-radius: 6px;
+      border: 1px solid #444;
+      font-size: 14px;
+      background: #0f0f0f;
+      color: #fff;
+    }
+
+    input:focus {
+      border-color: #4a90e2;
+      outline: none;
+      box-shadow: 0 0 5px rgba(74,144,226,0.5);
+    }
+
+    .btn {
+      width: 100%;
+      padding: 12px;
+      background: #4a90e2;
+      border: none;
+      color: #fff;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: 0.2s;
+      margin-top: 10px;
+    }
+
+    .btn:hover {
+      background: #357ac9;
+    }
+</style>
+</head>
+<body>
+  <div class="signup-container">
+    <h2>Create Account</h2>
+<form>
+
+    <div class="input-group">
+      <label>First Name</label>
+      <input type="text"placeholder="Enter first name" id="one"/>
+    </div>
+
+    <div class="input-group">
+      <label>Last Name</label>
+      <input type="text" placeholder="Enter other name" id="two"/>
+    </div>
+
+<div class="input-group">
+      <label>Other Name</label>
+      <input type="text" placeholder="Enter other name" id="three"/>
+    </div>
+
+
+
+    <div class="input-group">
+      <label> Mobile number</label>
+      <input type="tel" placeholder="Enter Mobile number" id="four" />
+    </div>
+
+    <div class="input-group">
+      <label>Password</label>
+      <input type="password" placeholder="Enter password" id="five"/>
+    </div>
+
+    <button type="submit" class="btn">Create Account</button>
+</form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
